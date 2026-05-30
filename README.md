@@ -83,6 +83,9 @@ Expected output: READY 2/2
 Get ALB URL:
 kubectl get ingress -n game-2048
 
+# Application Output (2048 Game App with ALB)
+
+![ALB Output](images/alb-output.png)
 
   
 
