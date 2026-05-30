@@ -85,7 +85,7 @@ kubectl get ingress -n game-2048
 
 # Application Output (2048 Game App with ALB)
 
-![ALB Output](images/alb-output.png)
+![ALB Output](images/ALB-2048 Game App.png)
 
   
 
