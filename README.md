@@ -83,13 +83,6 @@ Expected output: READY 2/2
 Get ALB URL:
 kubectl get ingress -n game-2048
 
-# Project Structure
-EKS-ALB-Project
-├── 📄 deployment.yml
-├── 📄 README.md
-└── 📁 images/
-└── 🖼️ alb-output.png
-
 
   
 
