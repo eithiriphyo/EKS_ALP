@@ -13,10 +13,10 @@ Architecture
 - AWS VPC Networking
 
 Prerequisites (Local Machine Setup)
-kubectl → Manage Kubernetes cluster
-eksctl → Create and manage EKS clusters
-AWS CLI → Manage AWS services
-Helm → Install Kubernetes applications
+- kubectl → Manage Kubernetes cluster
+- eksctl → Create and manage EKS clusters
+- AWS CLI → Manage AWS services
+- Helm → Install Kubernetes applications
 
 # Configure AWS CLI:
 aws configure
