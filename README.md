@@ -29,10 +29,10 @@ aws configure
 # Step 1: Create EKS Cluster using Fargate
 eksctl create cluster --name demo-cluster --region us-east-1 --fargate
 
-Verify cluster:
+# Verify cluster:
 aws eks list-clusters
 
-Connect kubectl:
+# Connect kubectl:
 aws eks update-kubeconfig --region us-east-1 --name demo-cluster
 
 # Step 2: Create Fargate Profile
