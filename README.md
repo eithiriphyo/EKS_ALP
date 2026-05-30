@@ -20,11 +20,11 @@ Prerequisites (Local Machine Setup)
 
 # Configure AWS CLI:
 aws configure
-Provide:
-AWS Access Key
-Secret Key
-Region (us-east-1)
-Output format (json)
+# Provide:
+- AWS Access Key
+- Secret Key
+- Region (us-east-1)
+- Output format (json)
 
 # Step 1: Create EKS Cluster using Fargate
 eksctl create cluster --name demo-cluster --region us-east-1 --fargate
