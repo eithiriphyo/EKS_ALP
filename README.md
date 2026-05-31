@@ -52,8 +52,8 @@ aws iam create-policy \
   --policy-document file://iam_policy.json
 
 # Step 6: Create IAM Role for Service Account
-   eksctl create iamserviceaccount \
-  --cluster=demo-cluster \
+  eksctl create iamserviceaccount \
+  --cluster=<your-cluster-name> \
   --namespace=kube-system \
   --name=aws-load-balancer-controller \
   --role-name AmazonEKSLoadBalancerControllerRole \
